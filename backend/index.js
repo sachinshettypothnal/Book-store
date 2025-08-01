@@ -9,6 +9,7 @@ const app = express();
 // Middleware for parsing request body
 app.use(express.json());
 console.log("jsagdyuec");
+console.log("thirs changes in backend");
 // Middleware for handling CORS POLICY
 // Option 1: Allow All Origins with Default of cors(*)
 app.use(cors());
